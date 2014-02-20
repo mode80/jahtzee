@@ -24,7 +24,7 @@
 
         $scope.toggleDie = function(die) {
           if ($scope.g.toggleDie(die) === false)
-            bootbox.alert('No cheating!') }
+            bootbox.alert('Roll first before selecting dice.') }
 
         $scope.newGame = function() {
 
